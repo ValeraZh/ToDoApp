@@ -1,0 +1,4 @@
+<form (ngSubmit)="onCreate()">
+  <input type="text" name="name" [(ngModel)]="name" class="border">
+  <button [disabled]="!name" class="border text-blue-900 bg-green-900 disabled:bg-green-400 disabled:text-blue-400">Create todo item</button>
+</form>
