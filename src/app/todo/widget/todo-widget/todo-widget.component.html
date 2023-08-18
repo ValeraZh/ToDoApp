@@ -1,0 +1,4 @@
+<h1 class="my-8 text-center">Todo Widgets</h1>
+
+<app-todo-form-create-ui (create)="onCreate($event)"></app-todo-form-create-ui>
+<app-todo-list-ui [todoLists]="todoList$ | async"></app-todo-list-ui>
